@@ -1,0 +1,27 @@
+{
+	"name": "InSuperposition",
+	"owner": {
+		"name": "Forrest Galloway",
+		"email": "f.galloway@gmail.com",
+		"url": "https://github.com/InSuperposition"
+	},
+	"metadata": {
+		"description": "A marketplace of awesome plugins for Claude",
+		"version": "0.0.1",
+		"homepage": "https://github.com/InSuperposition/skill"
+	},
+	"plugins": [
+		{
+			"name": "extensible-data-notation",
+			"source": "./data/extensible-data-notation"
+		},
+		{
+			"name": "first-principles",
+			"source": "./data/first-principles"
+		},
+		{
+			"name": "git",
+			"source": "./data/git"
+		}
+	]
+}
